@@ -1,0 +1,64 @@
+a {
+    transition: .3s all ease;
+}
+
+#home .top-wrap {
+    background: transparent;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    padding: 1.2em 0;
+}
+
+#home .top-wrap .navbar-brand {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+#home .top-wrap .navbar-brand:hover {
+    text-decoration: none;
+    color: #1eb2a6;
+    outline: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+#home .top-wrap .navbar-brand span {
+    display: block;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+}
+
+#home .ftco-navbar-light {
+    background: transparent !important;
+    position: absolute;
+    top: 95px;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    padding: 0;
+}
+
+#home .hero-wrap {
+    background-image: url(../images/woman.webp);
+    height: 100vh;
+    min-height: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    z-index: 0;
+}
+
+#home .hero-wrap .slider-text {
+    height: 100vh;
+    min-height: 750px;
+    color: rgba(255, 255, 255, 0.8);
+    z-index: 3;
+}
