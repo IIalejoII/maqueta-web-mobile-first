@@ -35,14 +35,52 @@ a {
     line-height: 0.2;
 }
 
+#home .top-wrap .information {
+    color: #fff;
+}
+
+#home .top-wrap .information .icon {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+#home .top-wrap .information .text {
+    font-size: 14px;
+}
+
+#home .top-wrap .social-media a {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 4px;
+    background: rgba(255,255,255,.2);
+    text-decoration: none;
+    color: #1eb2a6;
+}
+
+#home .top-wrap .social-media a:hover {
+    background: #1eb2a6;
+    color: #fff;
+}
+
 #home .ftco-navbar-light {
-    background: transparent !important;
+    background: #22c8ba;
     position: absolute;
-    top: 95px;
+    top: 210px;
     left: 0;
     right: 0;
     z-index: 3;
     padding: 0;
+}
+
+#home .ftco-navbar-light .navbar-toggler {
+    border: none;
+    color: rgba(255, 255, 255, 0.9) !important;
+    cursor: pointer;
+    padding-right: 0;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: .1em;
 }
 
 #home .hero-wrap {
@@ -63,16 +101,14 @@ a {
     color: rgba(255, 255, 255, 0.8);
     z-index: 3;
 }
-#home .top-wrap .col-md strong{
+
+#home .top-wrap .col-md strong {
     display:block   
 
 }
+
 #home .top-wrap .col-md span{
     height: 1em;
-}
-
-#home .ftco-navbar-light {
-    height: 12em;
 }
 
 #home .navbar .navbar-nav .nav-link {
@@ -106,5 +142,49 @@ a {
     text-align: center;
     border: 1px solid transparent;
     letter-spacing: 2px;
-    transform: skewX(-20deg)
+    text-decoration: none;
+}
+
+#home .navbar .btn-custom:before {
+    position: absolute;
+    top: -1px;
+    bottom: -1px;
+    left: -20px;
+    width: 100px;
+    background: #1eb2a6;
+    -webkit-transform: skewX(-20deg);
+    -ms-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+    z-index: -1;
+    content: '';
+}
+
+/*All higher than 1200px */
+@media only screen and (min-width: 1200px) {
+    #home .ftco-navbar-light .container-xl {
+        padding-left: 0;
+        padding-right: 0;   
+        background: rgba(255, 255, 255, 0.1);
+        max-width: 1300px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #home .ftco-navbar-light {
+        background: transparent;
+        top: 95px;
+    }
+
+    #home .top-wrap .information .icon {
+        font-size: 40px;
+    }
+
+    #home .top-wrap .information .text {
+        font-size: 16px;
+    }
+}
+
+/*All below 1200px*/
+@media only screen and (max-width: 1200px) {
+    
 }
