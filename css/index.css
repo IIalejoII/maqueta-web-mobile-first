@@ -110,7 +110,6 @@ a {
 
 #home .hero-wrap .slider-text {
     height: 100vh;
-    min-height: 750px;
     color: rgba(255, 255, 255, 0.8);
     z-index: 3;
 }
@@ -229,6 +228,16 @@ a {
     color: #1eb2a6!important;
 }
 
+#home .hero-wrap .fa-long-arrow-alt-right {
+    font-size: 14px;
+}
+
+#home .ftco-section .w-100 {
+    background-image: url(../images/woman2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
+}
 /*All higher than 1200px */
 @media only screen and (min-width: 1200px) {
     #home .ftco-navbar-light .container-xl {
