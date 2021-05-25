@@ -236,8 +236,145 @@ a {
     background-image: url(../images/woman2.webp);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center
+    background-position: center;
+    margin-left: -10px;
 }
+
+#home .heading-section .subheading {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+    color: #1eb2a6;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#home .heading-section .mb-2 {
+    font-size: 46px;
+    font-weight: 550;
+    line-height: 1.4;
+}
+
+#home .heading-section h2 {
+    font-size: 20px;
+    font-weight: 550;
+}
+
+#home .heading-section .text {
+    padding: 25px;
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+#home .heading-section .mb-0 {
+    background: #f8f8f8;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #999;
+}
+
+#home .heading-section .icon i {
+    display: block;
+    margin-top: 23px;
+    font-size: 50px;
+    line-height: 1.2;
+    color: #1eb2a6;
+    padding: 0 15px;
+}
+
+#home .heading-section .services.d-flex:hover .icon,
+#home .heading-section .services.d-flex:hover .text,
+#home .heading-section .services.d-flex:hover .mb-0 {
+    transition: all 0.3s ease;
+}
+
+#home .heading-section .services.d-flex:hover .icon {
+    background-color:#1eb2a6;
+}
+
+#home .heading-section .services.d-flex:hover .icon i {
+    color: white;
+}
+
+#home .heading-section .services.d-flex:hover .text {
+    color: white;
+    background-color: #1eb2a6;
+}
+
+#home .heading-section .services.d-flex:hover .mb-0 {
+    background-color: #1eb2a6;
+}
+
+#home .ftco-2 .heading-section .subheading {
+    padding: 8em 0 0 0;
+}
+
+#home .ftco-2 .heading-section .mb-4 {
+    font-size: 46px;
+    font-weight: 550;
+    line-height: 1.4;
+}
+
+#home .services-2 {
+    width: 100%;
+    background: #fff;
+    padding: 30px 20px;
+    border-radius: 4px;
+    box-shadow: 0 5px 25px -2px rgb(0 0 0 / 18%);
+}
+
+#home .services-2 .text h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 2px;
+    color: black;
+}
+
+#home .services-2 .text span {
+    font-size: 13px;
+    font-weight: 500;
+    background: #f8f8f8;
+    padding: 5px;
+    border-radius: 4px;
+    color: #1eb2a6;
+}
+
+#home .services-2 {
+    text-decoration: none;
+}
+
+#home .services-2 .icon {
+    font-size: 70px;
+    color: #1eb2a6;
+}
+
+#home .services-2:hover {
+    transition: all 0.3s ease;
+    background-color: #1eb2a6;
+}
+
+#home .services-2:hover .icon {
+    color:white
+}
+
+#home .services-2:hover .text h2 {
+    color:white;
+}
+
+#home .services-2.active {
+    background-color:#1eb2a6;
+}
+
+#home .services-2.active .icon {
+    color:white;
+}
+
+#home .services-2.active .text h2 {
+    color:white;
+}
+
 /*All higher than 1200px */
 @media only screen and (min-width: 1200px) {
     #home .ftco-navbar-light .container-xl {
