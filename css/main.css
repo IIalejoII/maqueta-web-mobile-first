@@ -1,0 +1,22 @@
+/* line 2, scss/pages/_index.scss */
+#home .top-wrap {
+  background: transparent;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  padding: 0.2em 0; }
+  /* line 10, scss/pages/_index.scss */
+  #home .top-wrap .navbar-brand {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700; }
+    /* line 15, scss/pages/_index.scss */
+    #home .top-wrap .navbar-brand:hover {
+      text-decoration: none;
+      color: #1eb2a6;
+      outline: none !important;
+      -webkit-box-shadow: none !important;
+      box-shadow: none !important; }

@@ -1,0 +1,23 @@
+{
+  "name": "maqueta-web-mobile-first",
+  "version": "1.0.0",
+  "description": "Recreating the [website](https://preview.colorlib.com/theme/academia/).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass scss -watch --recursive --output css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IIalejoII/maqueta-web-mobile-first.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IIalejoII/maqueta-web-mobile-first/issues"
+  },
+  "homepage": "https://github.com/IIalejoII/maqueta-web-mobile-first#readme",
+  "dependencies": {
+    "node-sass": "^6.0.0"
+  }
+}
