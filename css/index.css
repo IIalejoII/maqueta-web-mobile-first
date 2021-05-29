@@ -514,26 +514,26 @@ a {
     color: #1eb2a6;    
 }
 
-#home .ftco-footer ul {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}
-
 #home .ftco-footer .ftco-footer-social li {
     display: inline;
-}
-
-#home .ftco-footer .ftco-footer-social li i {
+    padding: 8px 12px;
     height: 40px;
     width: 40px;
-    color: #fff;
     border-radius: 50%;
-    position: relative;
     background: #1eb2a6;
+    font-size: 21px;
+    top: 50%;
+    left: 50%;
+    margin: 12px;
+    padding-left: 10px;
+}
+
+#home .ftco-footer .ftco-footer-media {
+    margin-left: -30px;
+}
+
+#home .ftco-footer.ftco-footer-media span {
+    color: white;
 }
 
 #home .ftco-footer .ftco-footer-widget ul li a i {
