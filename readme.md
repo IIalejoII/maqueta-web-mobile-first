@@ -1,6 +1,15 @@
-# Foobar
+# Required stack
 
-Foobar is a Python library for dealing with word pluralization.
+## Using Ubuntu
+curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+## Using Debian, as root
+curl -fsSL https://deb.nodesource.com/setup_14.x | bash -
+apt-get install -y nodejs
+
+## Sass
+npm install -g sass
 
 ## Description
 Recreating the [website](https://preview.colorlib.com/theme/academia/).
