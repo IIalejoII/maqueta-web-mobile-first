@@ -532,7 +532,7 @@ a {
     margin-left: -30px;
 }
 
-#home .ftco-footer.ftco-footer-media span {
+#home .ftco-footer .ftco-footer-media span {
     color: white;
 }
 
@@ -542,7 +542,7 @@ a {
     margin-right: 7px;
 }
 
-.ftco-footer .ftco-footer-widget h2, .ftco-footer .ftco-footer-widget .h2 {
+#home .ftco-footer .ftco-footer-widget h2, .ftco-footer .ftco-footer-widget .h2 {
     color: #111;
     margin-bottom: 40px;
     font-size: 18px;

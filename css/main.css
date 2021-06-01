@@ -1,3 +1,23 @@
+/* line 2, scss/layouts/_default.scss */
+*:-webkit-input-placeholder {
+  color: #fff !important;
+  font-size: 16px; }
+
+/* line 6, scss/layouts/_default.scss */
+*:-moz-placeholder {
+  color: #fff !important;
+  font-size: 16px; }
+
+/* line 10, scss/layouts/_default.scss */
+*:-moz-placeholder {
+  color: #fff !important;
+  font-size: 16px; }
+
+/* line 14, scss/layouts/_default.scss */
+*:-ms-input-placeholder {
+  color: #fff !important;
+  font-size: 16px; }
+
 /* line 2, scss/pages/_index.scss */
 #home .top-wrap {
   background: transparent;
@@ -34,17 +54,25 @@
     #home .top-wrap .information .icon {
       font-size: 20px;
       margin-right: 10px; }
-    /* line 36, scss/pages/_index.scss */
+      @media only screen and (min-width: 992px) {
+        /* line 32, scss/pages/_index.scss */
+        #home .top-wrap .information .icon {
+          font-size: 40px; } }
+    /* line 39, scss/pages/_index.scss */
     #home .top-wrap .information .text {
       font-size: 14px;
       margin-top: 12px; }
-    /* line 41, scss/pages/_index.scss */
+      @media only screen and (min-width: 992px) {
+        /* line 39, scss/pages/_index.scss */
+        #home .top-wrap .information .text {
+          font-size: 16px; } }
+    /* line 47, scss/pages/_index.scss */
     #home .top-wrap .information .fas.fas-clock {
       margin-top: 24px; }
-    /* line 44, scss/pages/_index.scss */
+    /* line 50, scss/pages/_index.scss */
     #home .top-wrap .information .fas.fas-phone-alt {
       margin-top: 20px; }
-  /* line 50, scss/pages/_index.scss */
+  /* line 56, scss/pages/_index.scss */
   #home .top-wrap .social-media a {
     width: 40px;
     height: 40px;
@@ -53,18 +81,18 @@
     background: rgba(255, 255, 255, 0.2);
     text-decoration: none;
     color: #1eb2a6; }
-    /* line 58, scss/pages/_index.scss */
+    /* line 64, scss/pages/_index.scss */
     #home .top-wrap .social-media a:hover {
       background: #1eb2a6;
       color: #fff; }
-  /* line 65, scss/pages/_index.scss */
+  /* line 71, scss/pages/_index.scss */
   #home .top-wrap .col-md strong {
     display: block; }
-  /* line 68, scss/pages/_index.scss */
+  /* line 74, scss/pages/_index.scss */
   #home .top-wrap .col-md span {
     height: 1em; }
 
-/* line 73, scss/pages/_index.scss */
+/* line 79, scss/pages/_index.scss */
 #home .ftco-navbar-light {
   background: #22c8ba;
   position: absolute;
@@ -74,7 +102,12 @@
   z-index: 3;
   padding: 0;
   margin-top: 18px; }
-  /* line 82, scss/pages/_index.scss */
+  @media only screen and (min-width: 992px) {
+    /* line 79, scss/pages/_index.scss */
+    #home .ftco-navbar-light {
+      background: transparent;
+      top: 95px; } }
+  /* line 92, scss/pages/_index.scss */
   #home .ftco-navbar-light .navbar-toggler {
     border: none;
     color: rgba(255, 255, 255, 0.9) !important;
@@ -83,8 +116,15 @@
     text-transform: uppercase;
     font-size: 16px;
     letter-spacing: .1em; }
+  @media only screen and (min-width: 1200px) {
+    /* line 101, scss/pages/_index.scss */
+    #home .ftco-navbar-light .container-xl {
+      padding-left: 0;
+      padding-right: 0;
+      background: rgba(255, 255, 255, 0.1);
+      max-width: 1300px; } }
 
-/* line 93, scss/pages/_index.scss */
+/* line 111, scss/pages/_index.scss */
 #home .hero-wrap {
   background-image: url(../images/woman.webp);
   height: 100vh;
@@ -95,18 +135,18 @@
   background-position: top center;
   background-attachment: fixed;
   z-index: 0; }
-  /* line 103, scss/pages/_index.scss */
+  /* line 121, scss/pages/_index.scss */
   #home .hero-wrap .slider-text {
     height: 100vh;
     color: rgba(255, 255, 255, 0.8);
     z-index: 3; }
-    /* line 107, scss/pages/_index.scss */
+    /* line 125, scss/pages/_index.scss */
     #home .hero-wrap .slider-text h1 {
       font-weight: 600;
       color: #fff;
       font-size: 40px;
       line-height: 1.2; }
-  /* line 114, scss/pages/_index.scss */
+  /* line 132, scss/pages/_index.scss */
   #home .hero-wrap .sub-heading {
     text-transform: uppercase;
     font-weight: 700;
@@ -118,12 +158,43 @@
     position: relative;
     z-index: 0;
     margin-top: 160px; }
-  /* line 127, scss/pages/_index.scss */
+  /* line 145, scss/pages/_index.scss */
   #home .hero-wrap p.mb-4 {
     margin-right: 100px;
     line-height: 1.8; }
+  /* line 151, scss/pages/_index.scss */
+  #home .hero-wrap .col-lg-6 .btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem; }
+    /* line 168, scss/pages/_index.scss */
+    #home .hero-wrap .col-lg-6 .btn.btn-primary {
+      background: #1eb2a6 !important;
+      border: 1px solid #1eb2a6 !important;
+      color: #fff !important; }
+    /* line 173, scss/pages/_index.scss */
+    #home .hero-wrap .col-lg-6 .btn.btn-white {
+      background: #fff !important;
+      border: 1px solid #fff !important;
+      color: #1eb2a6 !important; }
+  /* line 180, scss/pages/_index.scss */
+  #home .hero-wrap .fa-long-arrow-alt-right {
+    font-size: 14px; }
 
-/* line 135, scss/pages/_index.scss */
+/* line 186, scss/pages/_index.scss */
 #home .navbar .navbar-nav .nav-link {
   font-size: 15px;
   padding-top: 1.4rem;
@@ -132,13 +203,13 @@
   padding-right: 25px;
   color: rgba(255, 255, 255, 0.9);
   font-weight: 500; }
-  /* line 143, scss/pages/_index.scss */
+  /* line 194, scss/pages/_index.scss */
   #home .navbar .navbar-nav .nav-link:active {
     color: #1eb2a6;
     position: relative;
     z-index: 0; }
 
-/* line 150, scss/pages/_index.scss */
+/* line 201, scss/pages/_index.scss */
 #home .navbar .btn-custom {
   text-transform: uppercase;
   font-size: 13px;
@@ -155,7 +226,7 @@
   border: 1px solid transparent;
   letter-spacing: 2px;
   text-decoration: none; }
-  /* line 166, scss/pages/_index.scss */
+  /* line 217, scss/pages/_index.scss */
   #home .navbar .btn-custom::before {
     position: absolute;
     top: -1px;
@@ -168,3 +239,334 @@
     transform: skewX(-20deg);
     z-index: -1;
     content: ''; }
+
+/* line 233, scss/pages/_index.scss */
+#home .ftco-section .w-100 {
+  background-image: url(../images/woman2.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: -10px; }
+
+/* line 242, scss/pages/_index.scss */
+#home .heading-section .subheading {
+  font-size: 16px;
+  display: block;
+  margin-bottom: 5px;
+  color: #1eb2a6;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+/* line 250, scss/pages/_index.scss */
+#home .heading-section .mb-2 {
+  font-size: 46px;
+  font-weight: 550;
+  line-height: 1.4; }
+
+/* line 255, scss/pages/_index.scss */
+#home .heading-section h2 {
+  font-size: 20px;
+  font-weight: 550; }
+
+/* line 259, scss/pages/_index.scss */
+#home .heading-section .text {
+  padding: 25px;
+  display: block;
+  width: 100%;
+  margin-bottom: 0; }
+
+/* line 265, scss/pages/_index.scss */
+#home .heading-section .mb-0 {
+  background: #f8f8f8;
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 400;
+  color: #999; }
+
+/* line 273, scss/pages/_index.scss */
+#home .heading-section .icon i {
+  display: block;
+  margin-top: 23px;
+  font-size: 50px;
+  line-height: 1.2;
+  color: #1eb2a6;
+  padding: 0 15px; }
+
+/* line 285, scss/pages/_index.scss */
+#home .heading-section .services.d-flex:hover .text {
+  color: white;
+  background-color: #1eb2a6;
+  transition: all 0.3s ease; }
+
+/* line 290, scss/pages/_index.scss */
+#home .heading-section .services.d-flex:hover .bm-0 {
+  transition: all 0.3s ease;
+  background-color: #1eb2a6; }
+
+/* line 294, scss/pages/_index.scss */
+#home .heading-section .services.d-flex:hover .icon {
+  transition: all 0.3s ease;
+  background-color: #1eb2a6; }
+  /* line 297, scss/pages/_index.scss */
+  #home .heading-section .services.d-flex:hover .icon i {
+    color: white; }
+
+/* line 307, scss/pages/_index.scss */
+#home .ftco-2 .heading.section .subheading {
+  padding: 8em 0 0 0; }
+
+/* line 310, scss/pages/_index.scss */
+#home .ftco-2 .heading.section .mb-4 {
+  font-size: 46px;
+  font-weight: 550;
+  line-height: 1.4; }
+
+/* line 317, scss/pages/_index.scss */
+#home .services-2 {
+  text-decoration: none;
+  width: 100%;
+  background: #fff;
+  padding: 30px 20px;
+  border-radius: 4px;
+  box-shadow: 0 5px 25px -2px RGBA(0 0 0/18%); }
+  /* line 324, scss/pages/_index.scss */
+  #home .services-2:active {
+    background-color: #1eb2a6; }
+    /* line 326, scss/pages/_index.scss */
+    #home .services-2:active .icon {
+      color: white; }
+    /* line 330, scss/pages/_index.scss */
+    #home .services-2:active .text h2 {
+      color: white; }
+  /* line 335, scss/pages/_index.scss */
+  #home .services-2:hover {
+    transition: all 0.3s ease;
+    background-color: #1eb2a6; }
+    /* line 338, scss/pages/_index.scss */
+    #home .services-2:hover .icon {
+      color: white; }
+    /* line 342, scss/pages/_index.scss */
+    #home .services-2:hover .text h2 {
+      color: white; }
+  /* line 348, scss/pages/_index.scss */
+  #home .services-2 .text h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 2px;
+    color: black; }
+  /* line 354, scss/pages/_index.scss */
+  #home .services-2 .text span {
+    font-size: 13px;
+    font-weight: 500;
+    background: #f8f8f8;
+    padding: 5px;
+    border-radius: 4px;
+    color: #1eb2a6; }
+  /* line 363, scss/pages/_index.scss */
+  #home .services-2 .icon {
+    font-size: 70px;
+    color: #1eb2a6; }
+
+/* line 368, scss/pages/_index.scss */
+#home .col-md-3 {
+  margin-bottom: 1em; }
+
+/* line 371, scss/pages/_index.scss */
+#home .ftco-intro {
+  margin-top: 1em;
+  background-color: #1eb2a6 !important;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 1em; }
+  /* line 377, scss/pages/_index.scss */
+  #home .ftco-intro .mb-0 {
+    color: #fff;
+    font-size: 27px;
+    font-weight: 550;
+    background-color: #1eb2a6; }
+  /* line 383, scss/pages/_index.scss */
+  #home .ftco-intro p {
+    background: #1eb2a6;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: white; }
+  /* line 390, scss/pages/_index.scss */
+  #home .ftco-intro a {
+    color: white; }
+  /* line 394, scss/pages/_index.scss */
+  #home .ftco-intro .form-group input {
+    background: transparent !important;
+    border: none !important; }
+  /* line 400, scss/pages/_index.scss */
+  #home .ftco-intro .subscribe-form .form-control {
+    position: relative;
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5) !important;
+    border-radius: 0;
+    width: 18em; }
+  /* line 409, scss/pages/_index.scss */
+  #home .ftco-intro .btn-icon span {
+    margin-left: -15px; }
+
+/* line 414, scss/pages/_index.scss */
+#home .ftco-footer {
+  padding: 5em 0 0 0;
+  background: #eee; }
+  @media only screen and (min-width: 992px) {
+    /* line 417, scss/pages/_index.scss */
+    #home .ftco-footer .col-lg {
+      -webkit-box-flex: 1;
+      -ms-flex: 1 0 0%;
+      flex: 1 0 0%; } }
+  @media only screen and (min-width: 992px) {
+    /* line 424, scss/pages/_index.scss */
+    #home .ftco-footer .col-lg-2 {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+      width: 16.66667%; } }
+  /* line 432, scss/pages/_index.scss */
+  #home .ftco-footer a {
+    text-decoration: none;
+    color: #666;
+    line-height: 2.2; }
+    /* line 437, scss/pages/_index.scss */
+    #home .ftco-footer a.navbar-brand.align-items-center {
+      font-weight: 800;
+      font-size: 30px;
+      color: black;
+      z-index: 3;
+      position: relative;
+      line-height: 1.1;
+      text-transform: uppercase;
+      padding-left: 0; }
+  /* line 449, scss/pages/_index.scss */
+  #home .ftco-footer .container-xl {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto; }
+  /* line 456, scss/pages/_index.scss */
+  #home .ftco-footer .logo {
+    margin-top: -35px; }
+    /* line 458, scss/pages/_index.scss */
+    #home .ftco-footer .logo a {
+      margin-left: 5px;
+      margin-right: 5px;
+      padding: 1em; }
+      /* line 462, scss/pages/_index.scss */
+      #home .ftco-footer .logo a span {
+        color: #1eb2a6;
+        line-height: 1.1;
+        text-transform: uppercase;
+        font-size: 12px;
+        display: block;
+        font-weight: 500; }
+  /* line 472, scss/pages/_index.scss */
+  #home .ftco-footer p {
+    background: #eee;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #999;
+    margin-top: -30px; }
+  /* line 480, scss/pages/_index.scss */
+  #home .ftco-footer .list-unstyled {
+    padding-left: 0; }
+    /* line 484, scss/pages/_index.scss */
+    #home .ftco-footer .list-unstyled:hover li span {
+      transition: all 0.3s ease;
+      color: #1eb2a6; }
+  /* line 493, scss/pages/_index.scss */
+  #home .ftco-footer .heading:hover a {
+    transition: all 0.3s ease;
+    color: #1eb2a6; }
+  /* line 500, scss/pages/_index.scss */
+  #home .ftco-footer .ftco-footer-social li {
+    display: inline;
+    padding: 8px 12px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #1eb2a6;
+    font-size: 21px;
+    top: 50%;
+    left: 50%;
+    margin: 12px;
+    padding-left: 10px; }
+  /* line 514, scss/pages/_index.scss */
+  #home .ftco-footer .ftco-footer-media {
+    margin-left: -30px; }
+    /* line 516, scss/pages/_index.scss */
+    #home .ftco-footer .ftco-footer-media span {
+      color: white; }
+  /* line 524, scss/pages/_index.scss */
+  #home .ftco-footer .ftco-footer-widget ul li a i {
+    font-size: 10px;
+    color: #1eb2a6;
+    margin-right: 7px; }
+  /* line 532, scss/pages/_index.scss */
+  #home .ftco-footer .ftco-footer-widget h2,
+  #home .ftco-footer .ftco-footer-widget .h2 {
+    color: #111;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 550; }
+  /* line 541, scss/pages/_index.scss */
+  #home .ftco-footer .block-21 .blog-img {
+    background-image: url(../images/Woman3.webp);
+    display: block;
+    height: 50px;
+    width: 50px; }
+  /* line 547, scss/pages/_index.scss */
+  #home .ftco-footer .block-21 .text {
+    width: calc(100% - 50px);
+    padding-left: 20px; }
+    /* line 550, scss/pages/_index.scss */
+    #home .ftco-footer .block-21 .text .heading {
+      font-size: 16px;
+      font-weight: 400; }
+    /* line 556, scss/pages/_index.scss */
+    #home .ftco-footer .block-21 .text .meta > div a {
+      color: #1eb2a6;
+      font-size: 12px; }
+  /* line 564, scss/pages/_index.scss */
+  #home .ftco-footer .rounded {
+    border-radius: 0.25rem !important; }
+  /* line 568, scss/pages/_index.scss */
+  #home .ftco-footer .block-23 ul {
+    padding: 0; }
+    /* line 570, scss/pages/_index.scss */
+    #home .ftco-footer .block-23 ul li {
+      display: table;
+      line-height: 1.5;
+      margin-bottom: 15px;
+      font-size: 15px;
+      list-style: none; }
+      /* line 575, scss/pages/_index.scss */
+      #home .ftco-footer .block-23 ul li > a {
+        display: table;
+        line-height: 1.5;
+        margin-bottom: 15px;
+        font-size: 15px; }
+      /* line 581, scss/pages/_index.scss */
+      #home .ftco-footer .block-23 ul li .icon,
+      #home .ftco-footer .block-23 ul li .text {
+        display: table-cell;
+        vertical-align: top; }
+      /* line 587, scss/pages/_index.scss */
+      #home .ftco-footer .block-23 ul li .icon {
+        width: 40px;
+        font-size: 15px;
+        padding-top: 2px;
+        color: #1eb2a6 !important; }
+
+/* line 597, scss/pages/_index.scss */
+#home .img,
+#home .blog-img,
+#home .user-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
