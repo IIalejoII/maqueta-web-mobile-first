@@ -1,6 +1,12 @@
 @import 'abstracts/variables';
 @import 'abstracts/mixins';
 
+@import 'vendor/bootstrap';
+@import 'vendor/fontawesome/fontawesome';
+@import 'vendor/fontawesome/brand';
+@import 'vendor/fontawesome/solid';
+
+
 @import 'layouts/default';
 
 @import 'pages/index';
