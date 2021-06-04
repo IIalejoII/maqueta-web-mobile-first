@@ -16331,11 +16331,11 @@ textarea.form-control-lg {
   font-size: 16px; }
 
 /* line 18, scss/layouts/_default.scss */
-*a {
+* a {
   transition: .3s all ease; }
 
 /* line 21, scss/layouts/_default.scss */
-** {
+* * {
   font-family: "Roboto",Arial,sans-serif; }
 
 /* line 2, scss/pages/_index.scss */
@@ -16592,29 +16592,29 @@ textarea.form-control-lg {
   margin-bottom: 5px;
   color: #1eb2a6;
   font-weight: 700;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-top: 4em; }
 
-/* line 272, scss/pages/_index.scss */
+/* line 273, scss/pages/_index.scss */
 #home .heading-section .mb-2 {
   font-size: 46px;
   font-weight: 550;
   line-height: 1.4; }
 
-/* line 277, scss/pages/_index.scss */
+/* line 278, scss/pages/_index.scss */
 #home .heading-section h2 {
   font-size: 20px;
   font-weight: 550; }
 
-/* line 281, scss/pages/_index.scss */
+/* line 282, scss/pages/_index.scss */
 #home .heading-section .text {
   padding: 25px;
   display: block;
   width: 100%;
   margin-bottom: 0; }
 
-/* line 287, scss/pages/_index.scss */
+/* line 288, scss/pages/_index.scss */
 #home .heading-section .mb-0 {
-  background: #f8f8f8;
   font-size: 16px;
   line-height: 1.8;
   font-weight: 400;
