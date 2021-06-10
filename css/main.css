@@ -16667,13 +16667,13 @@ textarea.form-control-lg {
   border-radius: 4px;
   box-shadow: 0 5px 25px -2px RGBA(0 0 0/18%); }
   /* line 346, scss/pages/_index.scss */
-  #home .services-2:active {
+  #home .services-2.active {
     background-color: #1eb2a6; }
     /* line 348, scss/pages/_index.scss */
-    #home .services-2:active .icon {
+    #home .services-2.active .icon {
       color: white; }
     /* line 352, scss/pages/_index.scss */
-    #home .services-2:active .text h2 {
+    #home .services-2.active .text h2 {
       color: white; }
   /* line 357, scss/pages/_index.scss */
   #home .services-2:hover {
