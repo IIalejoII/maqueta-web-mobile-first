@@ -27,5 +27,4 @@ for (var i = 0; i < services.length; i++) {
 }
 
 var newsletterForm = document.querySelector('.subscribe-form');
-
 newsletterForm.addEventListener('submit', onSubmitNewsletter);
